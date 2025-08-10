@@ -1,52 +1,4 @@
-//  
-// ██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
-// ██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
-// ╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
-// ░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
-// ░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
-// ░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
-// ░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
-// ░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
-// ░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
-// ██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
-// ╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
-// ░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
 
-// preloader script............
-var audio = document.getElementById("audioPlayer");
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function () {
-  loader.style.display = "none";
-  document.querySelector('.hey').classList.add('popup');
-})
-
-// preloader script ends here.........
-
-// switch for setting
-function settingtoggle(){
-  document.getElementById("setting-container").classList.toggle('settingactivate');
-  document.getElementById("visualmodetogglebuttoncontainer").classList.toggle('visualmodeshow');
-  document.getElementById("soundtogglebuttoncontainer").classList.toggle('soundmodeshow');
-}
-function playpause() {
-  if (document.getElementById('switchforsound').checked == false) {
-    audio.pause();
-   }
-
- else{
-     audio.play();
- }
-  }
-
-  function visualmode(){
-    document.body.classList.toggle('light-mode');
-    var elements = document.querySelectorAll('.needtobeinvert');
-    elements.forEach(function(element) {
-        element.classList.toggle('invertapplied');
-    });
-
-
-  }
 let emptyArea = document.getElementById("emptyarea");
  let mobileTogglemenu = document.getElementById("mobiletogglemenu");
 // toggle menu by clicking on hamburger
@@ -93,9 +45,6 @@ navLi.forEach( li => {
   }
 })
 })
-console.log('%c Designed and Developed by Vinod Jangid ', 'background-image: linear-gradient(90deg,#8000ff,#6bc5f8); color: white;font-weight:900;font-size:1rem; padding:20px;');
-
-
 
 let mybutton = document.getElementById("backtotopbutton");
 window.onscroll = function(){
@@ -117,10 +66,6 @@ function scrolltoTopfunction(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// document.addEventListener("contextmenu", function (e){
-//   e.preventDefault();
-// }, false);
-// https://github.com/vinodjangid07
 document.addEventListener("contextmenu", function(e){
   if (e.target.nodeName === "IMG") {
       e.preventDefault();

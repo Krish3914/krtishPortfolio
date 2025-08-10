@@ -2441,16 +2441,3 @@ footer {
 .stats-card:hover::before {
     transform: rotate(360deg);
 }
-
-@media (max-width: 768px) {
-    #card-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .stats-card {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-}

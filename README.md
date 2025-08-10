@@ -8,7 +8,6 @@
 <a href="https://github.com/Krish3914/KrishFolio/blob/master/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
 <!--<img width="100%" src="https://i.im.ge/2024/08/12/fSfyX0.Screenshot-2024-08-12-022014.png" alt="Portfolio Screenshot"> -->
-<img width="100%" src="./src/png/Preview-card-min.png" alt="Portfolio Screenshot">
 
 
 # Sections 📚
@@ -24,11 +23,5 @@
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-## Tools Used 🛠️
-* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
-* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
-* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
-
 
 Please contact me at krishagrawal3914@gmail.com if you have any feedback for the website. :star: Star it, if you like it!

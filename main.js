@@ -139,15 +139,7 @@ window.addEventListener("mousemove", mouseMove),
   window.addEventListener("resize", windowResize);
 
 
-  // VanillaTilt.init(
-  //   document.querySelectorAll("#card1, #card2, #card3, #card4"),
-  //   {
-  //     max: 25,
-  //     speed: 400,
-  //     glare: true,
-  //     "max-glare": 0.5,
-  //   }
-  // );
+  
   document.querySelectorAll(".stats-card").forEach((card) => {
     card.addEventListener("click", function () {
       this.classList.toggle("flipped");
